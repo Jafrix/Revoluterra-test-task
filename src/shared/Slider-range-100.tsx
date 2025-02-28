@@ -10,8 +10,8 @@ const SliderRange100 = ({ onChange }) => {
   };
 
   return (
-    <div className="w-full flex flex-col">
-      <div className="flex content-center items-baseline gap-[8px]">
+    <div className=" flex w-full flex-col">
+      <div className="flex w-[160px] justify-between items-baseline gap-[10px]">
         <p className="mt-2 text-[24px] font-semibold text-gray-700">{value}%</p>
         <p className="text-[12px] text-[#898B94]">За 30 дней</p>
       </div>

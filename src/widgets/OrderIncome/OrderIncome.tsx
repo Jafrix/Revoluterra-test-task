@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-// import Skeleton from "../../shared/Skeleton";
-import { Skeleton } from "../../components/ui/skeleton"
+import { Skeleton } from "../../components/ui/skeleton";
 
 function OrderIncome() {
   const [incomeData, setIncomeData] = useState(null);

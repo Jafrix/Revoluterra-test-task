@@ -6,8 +6,8 @@ const SliderRange10 = () => {
   const percent = (value / 10) * 100;
 
   return (
-    <div className="w-full flex flex-col">
-      <div className="flex content-center items-baseline gap-[8px]">
+    <div className="flex w-full  flex-col">
+      <div className="flex justify-between w-[160px] items-baseline gap-[10px]">
         <p className="mt-2 text-[24px] font-semibold text-gray-700">
           {value} / 10
         </p>
